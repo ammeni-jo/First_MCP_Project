@@ -28,15 +28,3 @@ This Agentic RAG intelligently handles queries using the following logic:
 | **Qdrant**       | High-performance vector database for semantic search |
 
 ---
-
-## ⚙️ Workflow Overview
-
-```mermaid
-graph TD
-    A[User Query] --> B[MCP Agent Planning]
-    B --> C[Search Vector DB (Qdrant)]
-    C -->|If not found| D[Fallback: Web Search via Bright Data]
-    C -->|If found| E[Generate Answer]
-    D --> F[Update Context with Results]
-    F --> E
-    E --> G[Final Response]
