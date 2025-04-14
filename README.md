@@ -26,3 +26,4 @@ This Agentic RAG intelligently handles queries using the following logic:
 | **Qdrant**       | High-performance vector database for semantic search |
 
 ---
+Bright Data enables ai access to web.
