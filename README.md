@@ -2,9 +2,7 @@
 # MCP-powered Agentic RAG
 
 🚀 **Demo of an Agentic RAG powered by MCP**  
-This project showcases a Retrieval-Augmented Generation (RAG) system powered by **Multi-Agent Collaborative Planning (MCP)**.
-
-🎥 **Demo Overview**  
+This project showcases a Retrieval-Augmented Generation (RAG) system powered by **Multi-Agent Collaborative Planning (MCP)**. 
 An MCP-driven Agentic RAG that searches a vector database and falls back to web search if needed.
 
 ---
